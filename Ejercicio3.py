@@ -9,3 +9,10 @@
 # Cebolla   0.85
 # Aceite    4.35
 
+precios  = {"Pan":1.40 , "Huevos":2.30 , "Cebolla":0.85 , "Aceite":4.35}
+producto = input("Dime el producto ")
+cantidad = int(input("Dime la cantidad "))
+if producto in precios:
+    print(cantidad, 'de', producto, 'valen', precios[producto]*cantidad, '€')
+else: 
+    print("No esta disponible ")

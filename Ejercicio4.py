@@ -15,4 +15,3 @@ while continuar == "Si":
     persona[clave] = valor
     print(persona)
     continuar = input('¿Quieres añadir más información (Si/No)? ')
-exit
